@@ -12,6 +12,7 @@ BuildRequires:  cmake(Dtk)
 #BuildRequires:  annobin
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  cmake(Qt5Help)
+BuildRequires:  cmake(spdlog)
 
 %description
 Deepin tool kit core modules.
