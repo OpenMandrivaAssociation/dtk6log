@@ -35,4 +35,10 @@ Header files and libraries for %{name}.
 %install
 %make_install -C build
 
-%files
+%libpackages
+
+cat >>%{specpartsdir}/%{mklibname -d dtklog}.specpart <<EOF
+%{_includedir}/dtk5
+%{_libdir}/cmake/DtkLog
+%{_libdir}/qt5/mkspecs/modules/qt_lib_dtklog.pri
+EOF
