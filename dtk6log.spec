@@ -1,6 +1,6 @@
 Name:           dtk6log
 Version:        0.0.1
-Release:        3
+Release:        4
 Summary:        Deepin tool kit core modules
 License:        LGPLv3+
 Group:          System/Deepin
